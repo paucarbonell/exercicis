@@ -1,0 +1,41 @@
+/* colorines.css*/
+body {
+    color: grey;
+}
+
+body {
+    background-color: black;
+}
+
+body {
+    font-weight: bold;
+}
+
+body{
+    font-family:"Helvetica", "Arial", sans-serif;;
+}
+
+.fuente-blanco{
+    color: white;
+}
+
+th{
+    color: white;
+}
+body, table {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+th{
+    height: 40px;
+}
+tr{
+    height: 80px;
+}
+td:first-child{
+    text-align: center;
+}
+th{
+    text-align: left;
+}
