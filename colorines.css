@@ -10,6 +10,7 @@ body, table {
     margin: 0;
     padding: 0;
     width: 100%;
+    border-collapse: collapse;
 }
 .artista{
     color: grey;
@@ -39,4 +40,21 @@ td img{
 td:nth-child(2){
     display: flex;
     align-items: center;
+}
+
+p{
+    padding: 10px;
+}
+
+
+tr:not(:first-child):hover{
+    background-color: rgba(159, 154, 154,0.5);
+    cursor: pointer;
+}
+table{
+    border: 0;
+}
+
+td,th{
+    border: none;
 }
